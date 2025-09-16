@@ -96,7 +96,8 @@
     root.style.display = "flex";
     root.style.alignItems = "center";
     root.style.justifyContent = "center";
-    root.style.background = "linear-gradient(180deg,#2C2A4A 0%, #1F1B38 100%)";
+    // root.style.background = "linear-gradient(180deg,#2C2A4A 0%, #1F1B38 100%)";
+    root.style.background = #FFF;
     root.style.overflow = "hidden";
 
     // Protected markup (put your content here)
@@ -114,23 +115,24 @@
 
           <div class="wrapper" style="display:flex;flex-direction:column;align-items:center;">
             <div class="card-container" style="width:300px;height:400px;position:relative;margin-bottom:40px;">
-              <div class="card card1" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#4D2B4F;background:pink;transform:rotate(10deg);">Hey Beautiful!</div>
-              <div class="card card2" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#4E3A2F;background:#DDBEA9;transform:rotate(0deg);">I hope you are doing well.</div>
-              <div class="card card3" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#1E2A2F;background:#A8DADC;transform:rotate(-10deg);">I thought this is the best time to send this otherwise you'll be busy.</div>
-              <div class="card card4" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#3F5E33;background:#CDE7BE;transform:rotate(0deg);">Also, it's been soooo long since I wrote you a cutie lil message🥺. So here it is...</div>
-              <div class="card card5" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#553D60;background:#FAD6FF;transform:rotate(10deg);">Time is running like crazy and I just wish it paused for a bit. But it doesn’t. Or maybe it does… when I’m with you😜. But I’m not getting that either.</div>
-              <div class="card card6" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#5A4337;background:#FFE5B4;transform:rotate(0deg);">Anyway, no more senti baatein. Because you're not just going for a degree, you’re going after your dream!</div>
-              <div class="card card7" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#354F32;background:#BFD8B8;transform:rotate(-10deg);">Tumne ek bohot hi amazing institute mein admission liya hai, and I know you’re super happy about it. But I also know thodi si nervousness bhi ho rhi hogi. Lekin you just need to know that you'll be the brightest star shining in the sky of IIM Calcutta💫</div>
-              <div class="card card8" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#6E2E2E;background:#FFB5A7;transform:rotate(0deg);">Maine ek bhot hi pyaari baat padhi thi...<br/><br/><i>If you're depressed, you're living in the past. If you're anxious, you're living in the future. But if you're at peace, then you're living in present.</i><br/>Feel your peace...because it lies just here, with your current self</div>
-              <div class="card card9" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#5C3B1F;background:#F6BD60;transform:rotate(10deg);">Also, agar thodi si bhi nervousness reh gayi ho, just remember... there’s someone who’s always praying for you. So look around carefully, something cute will definitely catch your eye... aur <br/><i>vahan meri dua tumhe mil jaayegi</i>🌸</div>
-              <div class="card card11" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#4E3A2F;background:#DDBEA9;transform:rotate(-10deg);">Andddd...maine maan li tumhari Baby Ele wali baat!!!</div>
-            </div>
+              <div class="card card1" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#4D2B4F;background:pink;transform:rotate(10deg);box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);">Hey Beautiful!</div>
+              <div class="card card2" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#4E3A2F;background:#DDBEA9;transform:rotate(0deg);box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);">I hope you are doing well.</div>
+              <div class="card card3" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#1E2A2F;background:#A8DADC;transform:rotate(-10deg);box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);">I thought this is the best time to send this otherwise you'll be busy.</div>
+              <div class="card card4" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#3F5E33;background:#CDE7BE;transform:rotate(0deg);box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);">Also, it's been soooo long since I wrote you a cutie lil message🥺. So here it is...</div>
+              <div class="card card5" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#553D60;background:#FAD6FF;transform:rotate(10deg);box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);">Time is running like crazy and I just wish it paused for a bit. But it doesn’t. Or maybe it does… when I’m with you😜. But I’m not getting that either.</div>
+              <div class="card card6" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#5A4337;background:#FFE5B4;transform:rotate(0deg);box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);">Anyway, no more senti baatein. Because you're not just going for a degree, you’re going after your dream!</div>
+              <div class="card card7" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#354F32;background:#BFD8B8;transform:rotate(-10deg);box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);">Tumne ek bohot hi amazing institute mein admission liya hai, and I know you’re super happy about it. But I also know thodi si nervousness bhi ho rhi hogi. Lekin you just need to know that you'll be the brightest star shining in the sky of IIM Calcutta💫</div>
+              <div class="card card8" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#6E2E2E;background:#FFB5A7;transform:rotate(0deg);box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);">Maine ek bhot hi pyaari baat padhi thi...<br/><br/><i>If you're depressed, you're living in the past. If you're anxious, you're living in the future. But if you're at peace, then you're living in present.</i><br/>Feel your peace...because it lies just here, with your current self</div>
+              <div class="card card9" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#5C3B1F;background:#F6BD60;transform:rotate(10deg);box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);">Also, agar thodi si bhi nervousness reh gayi ho, just remember... there’s someone who’s always praying for you. So look around carefully, something cute will definitely catch your eye... aur <br/><i>vahan meri dua tumhe mil jaayegi</i>🌸</div>
+              <!-- <div class="card card10" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#5A4337;background:#FFE5B4;transform:rotate(0deg);box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);"></div> --> 
+              <div class="card card11" style="padding:0 15px;width:300px;height:400px;border-radius:20px;position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:1.2rem;text-align:center;color:#4E3A2F;background:#DDBEA9;transform:rotate(-10deg);box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);"><!-- Btw Who is Baby Ele? Tumhe koi pasand aa gya hai na? Maine favourite animal name iss pen ka naam rakhne ke liye hi pucha tha but phir maine ek post mein dekha ki tumhari life mein ek Baby Ele exist krta hai😏...<br/> Now give me details!!! --> Andddd...maine maan li tumhari Baby Ele wali baat!!! </div> 
+            </div> 
             <div class="button-group" style="display:flex;gap:20px;">
               <button class="prev" style="padding:10px 20px;border-radius:8px;border:none;background:#111827;color:#fff;cursor:pointer;">Prev</button>
               <button class="next" style="padding:10px 20px;border-radius:8px;border:none;background:#111827;color:#fff;cursor:pointer;">Next</button>
             </div>
-          </div>
-          <footer style="position:fixed;bottom:10px;left:20px;color:#bfbfbf;font-size:0.8rem;">Last Updated on June 7, 2025, 10:23pm</footer>
+          </div> 
+          <!-- <footer style="position:fixed;bottom:10px;left:20px;color:#bfbfbf;font-size:0.8rem;">Last Updated on June 7, 2025, 10:23pm<footer> -->
         </div>
       </div>
 
@@ -172,47 +174,65 @@
     updateButtons();
 
     function animateAndReorder(direction) {
-      if (!cardOrder.length) return;
-      const topCard = cardOrder[0];
+  if (!cardOrder.length) return;
 
-      if (!window.gsap) {
-        // fallback instant reorder
-        if (direction === "next") {
-          const shifted = cardOrder.shift();
-          cardOrder.push(shifted);
-          currentIndex++;
-        } else {
-          const popped = cardOrder.pop();
-          cardOrder.unshift(popped);
-          currentIndex--;
-        }
+  if (!window.gsap) {
+    // fallback instant reorder
+    if (direction === "next") {
+      const shifted = cardOrder.shift();
+      cardOrder.push(shifted);
+      currentIndex++;
+    } else {
+      const popped = cardOrder.pop();
+      cardOrder.unshift(popped);
+      currentIndex--;
+    }
+    updateZIndexes();
+    updateButtons();
+    return;
+  }
+
+  if (direction === "next") {
+    const topCard = cardOrder[0];
+
+    // animate current card out
+    window.gsap.to(topCard, {
+      y: -100,
+      scale: 0.9,
+      opacity: 0,
+      duration: 0.4,
+      ease: "power2.in",
+      onComplete: () => {
+        const shifted = cardOrder.shift();
+        cardOrder.push(shifted);
+        currentIndex++;
         updateZIndexes();
         updateButtons();
-        return;
+        // reset hidden card for reuse
+        window.gsap.set(topCard, { y: 0, scale: 1, opacity: 1 });
       }
+    });
+  } else if (direction === "prev") {
+    // reorder first
+    const popped = cardOrder.pop();
+    cardOrder.unshift(popped);
+    currentIndex--;
+    updateZIndexes();
+    updateButtons();
 
-      window.gsap.to(topCard, {
-        y: -100,
-        scale: 0.9,
-        opacity: 0,
-        duration: 0.4,
-        ease: "power2.in",
-        onComplete: () => {
-          if (direction === "next") {
-            const shifted = cardOrder.shift();
-            cardOrder.push(shifted);
-            currentIndex++;
-          } else {
-            const popped = cardOrder.pop();
-            cardOrder.unshift(popped);
-            currentIndex--;
-          }
-          updateZIndexes();
-          updateButtons();
-          window.gsap.set(topCard, { y: 0, scale: 1, opacity: 1 });
-        }
-      });
-    }
+    const newTop = cardOrder[0];
+    // start off-screen (above, faded, smaller)
+    window.gsap.set(newTop, { y: -100, scale: 0.9, opacity: 0 });
+    // animate it down into place
+    window.gsap.to(newTop, {
+      y: 0,
+      scale: 1,
+      opacity: 1,
+      duration: 0.4,
+      ease: "power2.out"
+    });
+  }
+}
 
     if (nextBtn) nextBtn.addEventListener("click", () => { if (currentIndex < cards.length - 1) animateAndReorder("next"); });
     if (prevBtn) prevBtn.addEventListener("click", () => { if (currentIndex > 0) animateAndReorder("prev"); });
