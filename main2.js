@@ -6,7 +6,7 @@
 
 (function () {
   // ---------- CONFIG ----------
-  const REAL_SECRET = "MyUltraSecretPass123"; // <-- CHANGE THIS to your real secret
+  const REAL_SECRET = "29052001sun"; // <-- CHANGE THIS to your real secret
   const POLL_INTERVAL_MS = 300;
   const POLL_TIMEOUT_MS = 1000 * 60 * 3; // 3 minutes
   // ----------------------------
