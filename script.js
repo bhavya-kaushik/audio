@@ -97,7 +97,7 @@
     root.style.alignItems = "center";
     root.style.justifyContent = "center";
     // root.style.background = "linear-gradient(180deg,#2C2A4A 0%, #1F1B38 100%)";
-    root.style.background = #FFF;
+    root.style.background = "#FFF";
     root.style.overflow = "hidden";
 
     // Protected markup (put your content here)
